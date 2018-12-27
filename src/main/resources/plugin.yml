@@ -1,0 +1,19 @@
+name: SpyAnticheat
+version: 1.0
+description: Spy on other players to find out if they're cheating... or to invade their privacy!
+author: Lagger625
+main: tk.lagger625.spyanticheat.SpyAnticheatPlugin
+api-version: 1.13
+commands:
+    spy:
+        description: Spy another player.
+        usage: /spy <player name>
+        permission: spyanticheat.spectate
+    unspy:
+        description: Stops spying another player.
+        usage: /unspy
+        permission: spyanticheat.spectate
+    spareload:
+        description: Reloads Spy Anticheat configuration.
+        usage: /spareload
+        permission: spyanticheat.spareload
